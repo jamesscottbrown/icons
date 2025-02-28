@@ -24,11 +24,11 @@ npm i @steeze-ui/svelte-icon
   import {Icon} from '@steeze-ui/svelte-icon'
 
   //import as many icons from a Icon Pack
-  import {LightningBolt} from '@steeze-ui/heroicons'
+  import {Bolt} from '@steeze-ui/heroicons'
 </script>
 
 <!-- Set Icon Theme via the attribute -->
-<Icon src={LightningBolt} theme='solid' class='color-gray-900'>
+<Icon src={Bolt} theme='solid' class='color-gray-900' />
 ```
 
 ## Documentation
